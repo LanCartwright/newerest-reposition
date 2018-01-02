@@ -1,0 +1,77 @@
+"a" = (/turf/unsimulated/wall,/area/winterstorm)
+"b" = (/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"c" = (/obj/effect/landmark/map_data{height = 3},/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"d" = (/obj/structure/stairs/east,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"e" = (/obj/structure/ladder/up,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"f" = (/obj/item/device/flashlight/lamp,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"g" = (/obj/effect/light_emitter,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"h" = (/turf/open/genturf,/area/winterstorm)
+"i" = (/turf/unsimulated/wall/ice,/area/winterstorm)
+"j" = (/turf/simulated/open,/area/winterstorm)
+"k" = (/turf/simulated/floor/snow,/area/winterstorm)
+"l" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/floor/shuttle/white,/area/winterstorm)
+"m" = (/turf/simulated/floor/shuttle/white,/area/winterstorm)
+"n" = (/turf/simulated/floor/wood,/area/winterstorm)
+"o" = (/obj/structure/ladder/updown,/turf/simulated/floor/shuttle/white,/area/winterstorm)
+"p" = (/obj/item/device/flashlight/lamp,/turf/simulated/floor/shuttle/white,/area/winterstorm)
+"q" = (/obj/structure/ladder/up,/turf/simulated/floor/wood,/area/winterstorm)
+"r" = (/turf/simulated/floor/ice,/area/winterstorm)
+"s" = (/obj/effect/landmark/terrain_generator,/turf/simulated/floor/shuttle/white,/area/winterstorm)
+"t" = (/obj/structure/stairs/west,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"u" = (/obj/effect/landmark/terrain_generator,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"v" = (/mob/living/carbon/human,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+"w" = (/obj/structure/ladder,/turf/unsimulated/floor/shuttle_ceiling,/area/winterstorm)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaa
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abcbbbbdbbbbbba
+abbbbbbbbbbbbba
+abbbefgbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+aaaaaaaaaaaaaaa
+"}
+
+(1,1,2) = {"
+aaaaaaaaaaaaaaa
+ahhhbbbbbbbbbba
+ahhhbbbbbbbbbba
+ahhhbbbbbbbbbba
+ahhhbbbbbbbbbba
+ahhhbbbbbbbbbba
+ahihbbjjjbbbbba
+ahihbbjjbbbbbba
+akkklmmnnbbbbba
+akkkopmnqbbbbba
+arrrmmsnnbbbbba
+arrrbbbbbbbbbba
+ahhhbbbbbbbbbba
+ahhhbtbbbbbbbba
+aaaaaaaaaaaaaaa
+"}
+
+(1,1,3) = {"
+aaaaaaaaaaaaaaa
+ahhhhhhbbbbbbba
+ahhhhhhbbbbbbba
+ahhhhhhbbbbbbba
+ahhhhhhbbbbubba
+abbbbbbvbbbbbba
+ajjbbjjbjjbbbba
+ajjcbjjbjjbbbba
+ajjbfjjbjjbbbba
+ajjbwjjbwbbbbba
+ajjbbjjbjjbbbba
+ajjbbjjbjjbbbba
+ajjbbjjbjjbbbba
+ajjbbjjbjjbbbba
+aaaaaaaaaaaaaaa
+"}

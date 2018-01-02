@@ -1,0 +1,81 @@
+"a" = (/turf/unsimulated/wall,/area/winterstorm)
+"b" = (/turf/simulated/floor/carpet,/area/winterstorm)
+"c" = (/obj/item/device/flashlight/lamp,/turf/simulated/floor/carpet,/area/winterstorm)
+"d" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/floor/carpet,/area/winterstorm)
+"e" = (/obj/structure/stairs/east,/turf/simulated/floor/carpet,/area/winterstorm)
+"f" = (/obj/structure/ladder/up,/turf/simulated/floor/carpet,/area/winterstorm)
+"g" = (/obj/effect/light_emitter,/turf/simulated/floor/carpet,/area/winterstorm)
+"h" = (/turf/genturf,/area/winterstorm)
+"i" = (/turf/simulated/floor/wood,/area/winterstorm)
+"j" = (/obj/item/device/flashlight/lamp,/turf/simulated/floor/wood,/area/winterstorm)
+"k" = (/turf/unsimulated/wall/ice,/area/winterstorm)
+"l" = (/turf/simulated/open,/area/winterstorm)
+"m" = (/turf/simulated/floor/snow,/area/winterstorm)
+"n" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/shuttle/floor,/area/winterstorm)
+"o" = (/turf/simulated/shuttle/floor,/area/winterstorm)
+"p" = (/obj/structure/ladder/updown,/turf/simulated/shuttle/floor,/area/winterstorm)
+"q" = (/obj/item/device/flashlight/lamp,/turf/simulated/shuttle/floor,/area/winterstorm)
+"r" = (/obj/structure/ladder/up,/turf/simulated/floor/wood,/area/winterstorm)
+"s" = (/turf/simulated/floor/ice,/area/winterstorm)
+"t" = (/obj/effect/landmark/terrain_generator,/turf/simulated/shuttle/floor,/area/winterstorm)
+"u" = (/obj/structure/stairs/west,/turf/simulated/floor/wood,/area/winterstorm)
+"v" = (/turf/simulated/floor/reinforced,/area/winterstorm)
+"w" = (/obj/item/device/flashlight/lamp,/turf/simulated/floor/reinforced,/area/winterstorm)
+"x" = (/obj/effect/landmark/terrain_generator,/turf/simulated/floor/reinforced,/area/winterstorm)
+"y" = (/mob/living/carbon/human,/turf/simulated/floor/reinforced,/area/winterstorm)
+"z" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/floor/reinforced,/area/winterstorm)
+"A" = (/obj/structure/ladder,/turf/simulated/floor/reinforced,/area/winterstorm)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaa
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abbbbbcbbbbbbba
+abbbbbbbbbcbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+abdbbbbebbbbbba
+abbbbbbbbbbbbba
+abbbfcgbbbbbbba
+abbbbbbbbbbbbba
+abbbbbbbbbbcbba
+abbbbbbbbbbbbba
+abbbbbbbbbbbbba
+aaaaaaaaaaaaaaa
+"}
+
+(1,1,2) = {"
+aaaaaaaaaaaaaaa
+ahhhiiiiiiiiiia
+ahhhiiiiiiiiiia
+ahhhiiijiiiiiia
+ahhhiiiiiiiiiia
+ahhhiiiiiiiiiia
+ahkhiillliiiiia
+ahkhiilliijiiia
+ammmnooiiiiiiia
+ammmpqoiriiiiia
+asssootiiiiiiia
+asssiijiiiiiiia
+ahhhiiiiiiiiiia
+ahhhiuiiiiiiiia
+aaaaaaaaaaaaaaa
+"}
+
+(1,1,3) = {"
+aaaaaaaaaaaaaaa
+ahhhhhhvvvvvvva
+ahhhhhhvvvvvvva
+ahhhhhhvvwvvvva
+ahhhhhhvvvvxvva
+avvvvvvyvvvvvva
+allvvllvllvvvva
+allzvllvllvvvva
+allvwllvllvvvva
+allvAllvAvvvwva
+allvvllvllvvvva
+allwvllvllvvvva
+allvvllvllvvvva
+allvvllvllvvvva
+aaaaaaaaaaaaaaa
+"}
