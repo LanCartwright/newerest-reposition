@@ -68,6 +68,8 @@ var/list/prisonsecuritywarp = list() // Prison security goes to these.
 var/list/prisonwarped       = list() // List of players already warped.
 var/list/ninjastart         = list()
 
+var/global/list/terrain_generators 
+
 var/list/cardinal    = list(NORTH, SOUTH, EAST, WEST)
 var/list/cornerdirs  = list(NORTHWEST, SOUTHEAST, NORTHEAST, SOUTHWEST)
 var/list/alldirs     = list(NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST)
