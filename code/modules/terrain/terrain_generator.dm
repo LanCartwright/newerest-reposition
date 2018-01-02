@@ -8,6 +8,9 @@
 	var/list/possible_biomes = list(/datum/biome/dirt = 2, /datum/biome/icelake = 3, /datum/biome/lake = 3, /datum/biome/snowy_plains = 5, /datum/biome/snowy_plains = 5 , /datum/biome/snowy_forest = 5, /datum/biome/snowy_forest_dense = 5)
 
 /obj/effect/landmark/terrain_generator/New()
+	terrain_generators += src
+
+/obj/effect/landmark/terrain_generator/proc/generate()
 	pick_biomes()
 	generate_cells()
 
@@ -44,6 +47,40 @@
 		unused_cells -= closest_cell
 		B.cells += closest_cell
 		closest_cell.biome = B
+
+/obj/effect/landmark/terrain_generator/proc/generate_cells() // Generate voronoi cells using manhattan distance
+	for(var/datum/sub_turf_block/STB in split_block(locate(1, 1, src.z), locate(world.maxx, world.maxy, src.z)))
+		for(var/turf/T in STB.return_list())
+			if(!istype(T, /turf/genturf))
+				continue // no
+			var/datum/biome_cell/closest
+			var/closest_dist = 99999
+			for(var/datum/biome_cell/B in cells)
+				var/dx = B.center_x-T.x
+				var/dy = B.center_y-T.y
+				var/dist = (dx*dx)+(dy*dy)
+				if(dist < closest_dist)
+					closest = B
+					closest_dist = dist
+			if(closest)
+				var/datum/biome/B = closest.biome
+				T.ChangeTurf(B.turf_type, FALSE, FALSE, TRUE)
+				B.turfs += T
+				if(istype(T,/turf/simulated))
+					if(B.flora_density && B.flora_types)
+						generate_flora(B, T)
+					if(B.fauna_density && B.fauna_types)
+						generate_fauna(B, T)
+
+/obj/effect/landmark/terrain_generator/proc/generate_flora(var/datum/biome/B, var/turf/T)
+	if(prob(B.flora_density))
+		var/obj/structure/flora = pick(B.flora_types)
+		new flora(T)
+
+/obj/effect/landmark/terrain_generator/proc/generate_fauna(var/datum/biome/B, var/turf/T)
+	if(prob(B.fauna_density))
+		var/mob/fauna = pick(B.fauna_types)
+		new fauna(T)
 
 /turf/genturf
 	name = "ungenerated turf"
